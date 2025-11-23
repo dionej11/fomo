@@ -1,0 +1,27 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <path d="
+    M60 15
+    Q64 40 85 60
+    Q64 80 60 105
+    Q56 80 35 60
+    Q56 40 60 15
+  "
+  fill="none"
+  stroke="#f4a8b9"
+  stroke-width="6"
+  stroke-linecap="round"
+  stroke-linejoin="round"/>
+
+  <!-- Puntitos pequeños alrededor -->
+  <circle cx="20" cy="20" r="1.5" fill="#f4a8b9"/>
+  <circle cx="40" cy="10" r="1.5" fill="#f4a8b9"/>
+  <!-- <circle cx="85" cy="20" r="1.5" fill="#f4a8b9"/> -->
+  <circle cx="100" cy="40" r="1.5" fill="#f4a8b9"/>
+  <!-- <circle cx="105" cy="75" r="1.5" fill="#f4a8b9"/> -->
+  <circle cx="90" cy="95" r="1.5" fill="#f4a8b9"/>
+  <!-- <circle cx="65" cy="110" r="1.5" fill="#f4a8b9"/> -->
+  <circle cx="40" cy="100" r="1.5" fill="#f4a8b9"/>
+  <!-- <circle cx="15" cy="80" r="1.5" fill="#f4a8b9"/> -->
+  <circle cx="10" cy="50" r="1.5" fill="#f4a8b9"/>
+</svg>
+

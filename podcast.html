@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Video Podcast</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" type="image/png" href="assets/img/logo.png" />
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <header class="navbar">
+    <div class="logo">
+    <!-- Pon aquí tu logo si quieres --> <img src="assets/img/logo.png" alt="Logo" />
+    </div>
+    <nav class="menu">
+    <div class="icon-with-text"><img src="/assets/svg/star.svg" class="star svg-hover" /> <a href="index.html" 
+        class="menu-item">INICIO</a>
+    </div>
+    <div class="icon-with-text"> <img src="assets/svg/estrella_1.svg" class="star svg-hover" /> <a href="/sobre_nosotros.html"
+        class="menu-item">SOBRE NOSOTROS</a> 
+    </div>
+    <div class="icon-with-text"> <img src="assets/svg/star.svg" class="star svg-hover" /> <a href="/podcast.html"
+        class="menu-item">VIDEO PODCAST</a> </div>
+    <div class="icon-with-text"> <img src="assets/svg/estrella_3.svg" class="star svg-hover" /> <a href="/experiencia.html"
+        class="menu-item">EXPERIENCIA
+        DIGITAL</a> </div>
+    <div class="icon-with-text"> <img src="assets/svg/star.svg" class="star svg-hover" /> <a href="/revista.html"
+        class="menu-item">REVISTA DIGITAL</a> </div>
+    <div class="icon-with-text"> <img src="assets/svg/estrella_4.svg" class="star svg-hover" /> <a href="/contacto.html"
+        class="menu-item">CONTACTO</a>
+    </div>
+    </nav>
+    </header> 
+    <section class="sobre-nosotros">
+        <div class="sn-encabezado">
+            <h2>VIDEO<br>PODCAST</h2>
+        </div>
+    </section>
+    <div class="episodios" id="episodios">
+      <!-- Episodio 1 -->
+      <article class="episodio reveal" data-ep="1">
+        <div class="meta">
+          <div class="dot">1</div>
+          <div style="text-align:left;margin-left:12px">
+            <div class="title">Ariel — Inicio & Conexión</div>
+            <div class="subtitle">Fragmenta: Contexto, reconocimiento y cierre</div>
+          </div>
+        </div>
+        <div class="panel" aria-hidden="true">
+          <div class="fragments">
+            <div class="fragment" data-src="audio/ep1_nodo1.mp3">
+              <div class="frag-title">Nodo 1 — Inicio</div>
+              <div class="frag-desc">Conexión: preguntas introductorias y contexto personal.</div>
+              <div class="frag-controls">
+                <button class="play-btn">▶</button>
+                <button class="small-btn btn-preview">Escuchar</button>
+              </div>
+              <div class="progress"><i></i></div>
+            </div>
+
+            <div class="fragment" data-src="audio/ep1_nodo2.mp3">
+              <div class="frag-title">Nodo 2 — Contexto FOMO</div>
+              <div class="frag-desc">Definición y ejemplos: ¿Cómo lo viviste?</div>
+              <div class="frag-controls">
+                <button class="play-btn">▶</button>
+                <button class="small-btn btn-preview">Escuchar</button>
+              </div>
+              <div class="progress"><i></i></div>
+            </div>
+
+            <div class="fragment" data-src="audio/ep1_nodo3.mp3">
+              <div class="frag-title">Nodo 3 — Reconocimiento</div>
+              <div class="frag-desc">Estrategias y cierre: experiencia y agradecimientos.</div>
+              <div class="frag-controls">
+                <button class="play-btn">▶</button>
+                <button class="small-btn btn-preview">Escuchar</button>
+              </div>
+              <div class="progress"><i></i></div>
+            </div>
+          </div>
+
+          <div class="panel-controls">
+            <button class="accent-btn btn-shuffle">Reproducir aleatorio</button>
+            <button class="muted-btn btn-stop">Detener</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Episodio 2 -->
+      <article class="episodio reveal delay-1" data-ep="2">
+        <div class="meta">
+          <div class="dot">2</div>
+          <div style="text-align:left;margin-left:12px">
+            <div class="title">Juana — Contraste y Libertad</div>
+            <div class="subtitle">Tres nodos: contraste, libertad de elegir e identidad.</div>
+          </div>
+        </div>
+        <div class="panel" aria-hidden="true">
+          <div class="fragments">
+            <div class="fragment" data-src="audio/ep2_nodo1.mp3">
+              <div class="frag-title">Nodo 1 — Contraste</div>
+              <div class="frag-desc">Relación con planes sociales y contraste con FOMO.</div>
+              <div class="frag-controls">
+                <button class="play-btn">▶</button>
+                <button class="small-btn btn-preview">Escuchar</button>
+              </div>
+              <div class="progress"><i></i></div>
+            </div>
+            <div class="fragment" data-src="audio/ep2_nodo2.mp3">
+              <div class="frag-title">Nodo 2 — Libertad</div>
+              <div class="frag-desc">La libertad de elegir tu ritmo sin culpa.</div>
+              <div class="frag-controls">
+                <button class="play-btn">▶</button>
+                <button class="small-btn btn-preview">Escuchar</button>
+              </div>
+              <div class="progress"><i></i></div>
+            </div>
+            <div class="fragment" data-src="audio/ep2_nodo3.mp3">
+              <div class="frag-title">Nodo 3 — Identidad</div>
+              <div class="frag-desc">Independencia y bienestar emocional.</div>
+              <div class="frag-controls">
+                <button class="play-btn">▶</button>
+                <button class="small-btn btn-preview">Escuchar</button>
+              </div>
+              <div class="progress"><i></i></div>
+            </div>
+          </div>
+          <div class="panel-controls">
+            <button class="accent-btn btn-shuffle">Reproducir aleatorio</button>
+            <button class="muted-btn btn-stop">Detener</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Episodio 3 -->
+      <article class="episodio reveal delay-2" data-ep="3">
+        <div class="meta">
+          <div class="dot">3</div>
+          <div style="text-align:left;margin-left:12px">
+            <div class="title">Catalina — Lo imperdible</div>
+            <div class="subtitle">Viajes, decisiones y emociones: tres nodos.</div>
+          </div>
+        </div>
+        <div class="panel" aria-hidden="true">
+          <div class="fragments">
+            <div class="fragment" data-src="audio/ep3_nodo1.mp3">
+              <div class="frag-title">Nodo 1 — Motivos</div>
+              <div class="frag-desc">Qué motiva a viajar y cómo se relaciona con identidad.</div>
+              <div class="frag-controls">
+                <button class="play-btn">▶</button>
+                <button class="small-btn btn-preview">Escuchar</button>
+              </div>
+              <div class="progress"><i></i></div>
+            </div>
+            <div class="fragment" data-src="audio/ep3_nodo2.mp3">
+              <div class="frag-title">Nodo 2 — Redes y aceleración</div>
+              <div class="frag-desc">Influencia de contenido y emociones ante la comparación.</div>
+              <div class="frag-controls">
+                <button class="play-btn">▶</button>
+                <button class="small-btn btn-preview">Escuchar</button>
+              </div>
+              <div class="progress"><i></i></div>
+            </div>
+            <div class="fragment" data-src="audio/ep3_nodo3.mp3">
+              <div class="frag-title">Nodo 3 — Decisiones impulsivas</div>
+              <div class="frag-desc">Anécdotas y reflexiones sobre viajes impulsivos.</div>
+              <div class="frag-controls">
+                <button class="play-btn">▶</button>
+                <button class="small-btn btn-preview">Escuchar</button>
+              </div>
+              <div class="progress"><i></i></div>
+            </div>
+          </div>
+          <div class="panel-controls">
+            <button class="accent-btn btn-shuffle">Reproducir aleatorio</button>
+            <button class="muted-btn btn-stop">Detener</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Episodio 4 -->
+      <article class="episodio reveal delay-3" data-ep="4">
+        <div class="meta">
+          <div class="dot">4</div>
+          <div style="text-align:left;margin-left:12px">
+            <div class="title">Santiago — Ermitaño & JOMO</div>
+            <div class="subtitle">Identidad, transición y límites.</div>
+          </div>
+        </div>
+        <div class="panel" aria-hidden="true">
+          <div class="fragments">
+            <div class="fragment" data-src="audio/ep4_nodo1.mp3">
+              <div class="frag-title">Nodo 1 — Estilo de vida</div>
+              <div class="frag-desc">Espacios personales y recarga de energía.</div>
+              <div class="frag-controls">
+                <button class="play-btn">▶</button>
+                <button class="small-btn btn-preview">Escuchar</button>
+              </div>
+              <div class="progress"><i></i></div>
+            </div>
+            <div class="fragment" data-src="audio/ep4_nodo2.mp3">
+              <div class="frag-title">Nodo 2 — Transición</div>
+              <div class="frag-desc">De FOMO a JOMO: hobbies y tranquilidad.</div>
+              <div class="frag-controls">
+                <button class="play-btn">▶</button>
+                <button class="small-btn btn-preview">Escuchar</button>
+              </div>
+              <div class="progress"><i></i></div>
+            </div>
+            <div class="fragment" data-src="audio/ep4_nodo3.mp3">
+              <div class="frag-title">Nodo 3 — Conexión social</div>
+              <div class="frag-desc">Límites, percepción externa y decisiones sociales.</div>
+              <div class="frag-controls">
+                <button class="play-btn">▶</button>
+                <button class="small-btn btn-preview">Escuchar</button>
+              </div>
+              <div class="progress"><i></i></div>
+            </div>
+          </div>
+          <div class="panel-controls">
+            <button class="accent-btn btn-shuffle">Reproducir aleatorio</button>
+            <button class="muted-btn btn-stop">Detener</button>
+          </div>
+        </div>
+      </article>
+
+    </div>
+    <script>
+    // Simple interactive logic: expand panels, load and play fragment audio independently, shuffle
+
+    const episodios = document.querySelectorAll('.episodio');
+    let currentAudio = null;
+    let progressInterval = null;
+
+    episodios.forEach(ep =>{
+    ep.addEventListener('click', e=>{
+        // ignore clicks on panel controls or buttons inside
+        if(e.target.closest('.panel')) return;
+        // toggle open
+        const panel = ep.querySelector('.panel');
+        const isOpen = panel.classList.contains('open');
+        // close others
+        document.querySelectorAll('.panel.open').forEach(p=>p.classList.remove('open'));
+        if(!isOpen){ panel.classList.add('open'); panel.setAttribute('aria-hidden','false'); }
+        else { panel.classList.remove('open'); panel.setAttribute('aria-hidden','true'); }
+    });
+
+    // set up fragment buttons for this episode
+    const fragments = ep.querySelectorAll('.fragment');
+    fragments.forEach(fragment => setupFragment(fragment));
+
+    // panel controls
+    const btnShuffle = ep.querySelector('.btn-shuffle');
+    const btnStop = ep.querySelector('.btn-stop');
+    btnShuffle && btnShuffle.addEventListener('click', ev=>{
+        ev.stopPropagation();
+        // pick random fragment order and play sequentially
+        const order = [...fragments].map((f,i)=>i).sort(()=>Math.random()-0.5);
+        playSequential(order, fragments);
+    });
+    btnStop && btnStop.addEventListener('click', ev=>{ ev.stopPropagation(); stopCurrent(); });
+    });
+
+    function setupFragment(fragment){
+    const src = fragment.getAttribute('data-src');
+    // create audio element (lazy)
+    let audio = null;
+    const playBtn = fragment.querySelector('.play-btn');
+    const previewBtn = fragment.querySelector('.btn-preview');
+    const progBar = fragment.querySelector('.progress > i');
+
+    playBtn.addEventListener('click', ev=>{
+        ev.stopPropagation();
+        if(!audio){ audio = new Audio(src); audio.preload='auto'; }
+        if(currentAudio && currentAudio !== audio) stopCurrent();
+        if(audio.paused){ audio.play(); currentAudio = audio; playBtn.textContent='❚❚'; startProgress(audio,progBar); }
+        else { audio.pause(); playBtn.textContent='▶'; stopProgress(); }
+
+        audio.onended = ()=>{ playBtn.textContent='▶'; stopProgress(); }
+    });
+
+    previewBtn && previewBtn.addEventListener('click', ev=>{
+        ev.stopPropagation();
+        // same as play button
+        playBtn.click();
+    });
+
+    // update progress while playing
+    function startProgress(audioEl, bar){ stopProgress(); progressInterval = setInterval(()=>{
+        if(!audioEl || !bar) return;
+        const pct = (audioEl.currentTime / (audioEl.duration || 1)) * 100;
+        bar.style.width = pct + '%';
+        },200);
+    }
+    function stopProgress(){ if(progressInterval) { clearInterval(progressInterval); progressInterval=null; } }
+    }
+
+    function stopCurrent(){ if(currentAudio){ currentAudio.pause(); currentAudio.currentTime=0; currentAudio=null; }
+    // reset progress bars
+    document.querySelectorAll('.progress > i').forEach(i=>i.style.width='0%');
+    // reset play button text
+    document.querySelectorAll('.play-btn').forEach(b=>b.textContent='▶');
+    }
+
+    async function playSequential(order, fragments){
+    stopCurrent();
+    for(const idx of order){
+        const frag = fragments[idx];
+        const src = frag.getAttribute('data-src');
+        const playBtn = frag.querySelector('.play-btn');
+        const progBar = frag.querySelector('.progress > i');
+        const audio = new Audio(src);
+        currentAudio = audio;
+        playBtn.textContent='❚❚';
+        audio.play();
+        // poll progress
+        await new Promise(res=>{
+        audio.ontimeupdate = ()=>{ const pct=(audio.currentTime/(audio.duration||1))*100; progBar.style.width=pct+'%'; }
+        audio.onended = ()=>{ playBtn.textContent='▶'; progBar.style.width='100%'; res(); }
+        audio.onerror = ()=>{ res(); }
+        });
+    }
+    currentAudio = null;
+    }
+
+    // Accessibility: allow keyboard open/close via Enter
+    episodios.forEach(ep=>{ ep.setAttribute('tabindex',0); ep.addEventListener('keydown', e=>{ if(e.key==='Enter') ep.click(); }); });
+
+    </script>
+</body>
+</html>
