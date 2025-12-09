@@ -1015,15 +1015,15 @@ p.lead {
 .episodios {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 28px;
-    padding: 100px;
+    gap: 15px;
+    padding: 20px;
     background-image: url(/assets/img/fondo2.png);
     background-size: contain;
 }
 
 .episodio {
     background: var(--pink);
-    padding: 26px;
+    padding: 15px;
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
     cursor: pointer;
@@ -1070,7 +1070,7 @@ p.lead {
 .panel {
     background: var(--card);
     border-radius: 16px;
-    padding: 22px;
+    padding: 12px;
     margin-top: 18px;
     box-shadow: 0 12px 30px rgba(0, 0, 0, .06);
     display: none
@@ -1088,14 +1088,15 @@ p.lead {
 }
 
 .fragment {
-    width: calc(33% - 12px);
+    /* width: calc(33% - 12px); */
     min-width: 190px;
     background: linear-gradient(180deg, #fff, #fff0f3);
-    padding: 16px;
+    padding-bottom: 16px;
     border-radius: 14px;
     box-shadow: 0 8px 18px rgba(0, 0, 0, .06);
     transition: transform .25s ease, box-shadow .25s
 }
+
 
 .fragment:hover {
     transform: translateY(-8px);
@@ -1478,4 +1479,66 @@ p.lead {
 .icon img:hover {
     transform: scale(1.1);
 }
+
+.fomo-experiencia {
+    margin: 0 auto;
+    padding: 40px;
+    max-width: 1200px;
+    background: #fffbf6;
+    border-radius: 18px;
+    border: 2px solid #f1b657;
+    text-align: center;
+}
+
+.fomo-experiencia h2 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  color: #f2b558;
+}
+
+.fomo-desc {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+  color: #444;
+}
+
+.fomo-form .input-group {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.fomo-form label {
+  font-weight: bold;
+  color: #f2b558;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.fomo-form input,
+.fomo-form textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 2px solid #f2b558;
+  font-size: 1rem;
+  background: white;
+  resize: none;
+}
+
+.btn-fomo {
+  background: #f2b558;
+  border: none;
+  padding: 14px 30px;
+  font-size: 1.1rem;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-fomo:hover {
+  background: #f2b558;
+  transform: translateY(-2px);
+}
+
 
