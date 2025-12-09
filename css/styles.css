@@ -389,7 +389,7 @@ body {
 
 /*****experiencia*****/
 .busqueda-tesoro {
-    background-image: url("/assets/img/fondo.png");
+    background-image: url("assets/img/fondo.png");
     background-size: contain;
     padding: 80px 0;
     position: relative;
@@ -451,7 +451,7 @@ body {
 }
 
 .intro-busqueda {
-    background-image: url("/assets/img/fondo2.png");
+    background-image: url("assets/img/fondo2.png");
     background-size: contain;
     display: flex;
     padding: 150px 100px;
@@ -795,7 +795,7 @@ body {
 .cerca-left {
     width: 50%;
     height: 100%;
-    background-image: url(/assets/img/fondo2.png);
+    background-image: url("assets/img/fondo2.png");
     background-size: contain;
     display: flex;
     justify-content: start;
@@ -1017,7 +1017,7 @@ p.lead {
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 15px;
     padding: 20px;
-    background-image: url(/assets/img/fondo2.png);
+    background-image: url("assets/img/fondo2.png");
     background-size: contain;
 }
 
